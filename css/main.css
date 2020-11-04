@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    /* flex-direction: row-reverse;*/
+    /* flex-direction: column-reverse;*/
+    /*justify-content: center ;*/
+    /*justify-content: flex-start ;*/
+    /*justify-content: flex-end ;*/
+    /*justify-content: space-around ;*/
+     /*justify-content: space-between ;*/
+    justify-content: space-evenly ;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:nth-child(odd) {
+    background: orange;
+}
+.box:nth-child(even) {
+    background: teal;
+}
